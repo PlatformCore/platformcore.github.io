@@ -1,4 +1,4 @@
-@charset "UTF-8";
+f@charset "UTF-8";
 body {
   font-family: "Opensans-Regular";
   margin: 0;
@@ -362,6 +362,11 @@ header.site__header .login-nav .create__account a:hover {
   overflow: hidden;
 }
 .digital-marketing .marketing__video iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.digital-marketing .marketing__video object {
   width: 100%;
   height: 100%;
   border: none;
