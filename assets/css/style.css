@@ -18,7 +18,7 @@ body.site-loaded {
     text-align: center;
 }
 .style_li_norequirement li:before { 
-  content: '✔️'; 
+  content: '\2713'; 
   margin-left: 20px; 
   margin-right: 10px;
   width: auto; 
