@@ -10,12 +10,32 @@ body {
 body.site-loaded {
   overflow-y: auto;
 }
+.style_li_norequirement ul {
+    display: block;
+    list-style-type: none;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+.style_li_norequirement li:before { 
+  content: '✔️'; 
+  margin-left: 20px; 
+  margin-right: 10px;
+  width: auto; 
+} 
+.style_li_norequirement li {
+   display: inline-block;
+   width: auto;
+   list-style: outside none none;
+}
+
+
 #employee-row{
-      max-width: 85%;
+    max-width: 85%;
     margin: 0 auto;
 }
 .team-for-bg-right{
-      background-image: url(bg.svg);
+    background-image: url(bg.svg);
     background-size: 57%;
     background-position: top right;
     background-repeat: no-repeat;
