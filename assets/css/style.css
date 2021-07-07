@@ -1454,6 +1454,10 @@ color:#6D5EC2;
 {
 	margin-right:181px;
 }
+
+.whatsapp-qr img
+{
+  max-width: 80%;
 }
 
 /*----privay--------*/
