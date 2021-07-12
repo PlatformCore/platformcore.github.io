@@ -370,7 +370,10 @@ header.site__header .login-nav .create__account a:hover {
 .landing-section .landing__images.text__shown {
   opacity: 0.3;
 }
-
+.GoogleCloudforStartups img {
+  max-width: 30%;
+  max-height: 30%;
+}
 /*------------ Landing Section Ends -----------------*/
 /*------------ Digital Marketing ------------------*/
 .digital-marketing {
